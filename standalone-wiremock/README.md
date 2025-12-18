@@ -88,3 +88,10 @@ curl localhost:8080/api/mytest
 ```
 curl http://localhost:8080/__admin/mappings
 ```
+
+## File serving from __files folder
+```
+If a file exists __files/home/index.html and no stub mapping match it then hitting 
+http://<host>:<port>/home/index.html will serve the file.
+```
+
