@@ -1,0 +1,23 @@
+{
+    "mappings": [
+        {
+            "request": {
+                "method": "GET",
+                "url": "/service/three"
+            },
+            "response": {
+                "status": 200,
+				"body": "service three"
+            }
+        },
+        {
+            "request": {
+                "url": "/service/four"
+            },
+            "response": {
+				"status": 200,
+                "body": "Updated service four"
+            }
+        }
+    ]
+}

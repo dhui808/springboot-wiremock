@@ -13,3 +13,4 @@
 **/.DS_Store
 **/dependency*.txt
 **/*.jar
+**/.mvn/
