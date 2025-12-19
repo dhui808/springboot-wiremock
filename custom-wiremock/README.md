@@ -18,5 +18,5 @@ java -jar target/custom-wiremock-1.0-SNAPSHOT.jar --load-resources-from-classpat
 curl http://localhost:8080/__admin/mappings  
 curl http://localhost:8080/service/three
 
-## SHutdown WireMock server
+## Shutdown WireMock server
 curl -X POST http://localhost:8080/__admin/shutdown -d "{}"
