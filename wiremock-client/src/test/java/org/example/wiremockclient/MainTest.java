@@ -15,6 +15,6 @@ public class MainTest {
                 .build();
 
         // The root directory of the WireMock project, under which the mappings and __files directories should be found
-        wireMock.loadMappingsFrom("/opt/springboot-wiremock/wiremockclient/wiremock-root");
+        wireMock.loadMappingsFrom("/opt/springboot-wiremock/wiremock-client/wiremock-root");
     }
 }
