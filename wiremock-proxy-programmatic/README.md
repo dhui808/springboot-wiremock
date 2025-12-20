@@ -1,6 +1,3 @@
-## Pushing JSON files to a remote WireMock
-From a Java application to a remote WireMock server.  
-
 ## Start Wiremock
 ```
 Start Wiremock in the standalone-wiremock project.
