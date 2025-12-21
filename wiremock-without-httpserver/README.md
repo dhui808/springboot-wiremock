@@ -2,6 +2,7 @@
 Since Wiremock v2.32.0, the DirectCallHttpServer provides this ability.
 
 ## Run WireMock client test
+mvn test
 
 ## Test
 ```
