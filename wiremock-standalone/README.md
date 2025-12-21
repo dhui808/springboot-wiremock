@@ -1,3 +1,9 @@
+## The location of the mapping files
+```
+When running standalone WireMock, by default, it loads the mapping files from the filesystem,
+in the "mappings" folder under the current folder.
+```
+
 ## Start WireMock - default port 8080
 ```
 java -jar wiremock-standalone-3.13.2.jar

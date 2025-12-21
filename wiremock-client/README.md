@@ -1,6 +1,12 @@
 ## Pushing JSON files to a remote WireMock
 From a Java application to a remote WireMock server.  
 
+## The location of the mapping files in JUnit tests
+```
+To configure the path of the mapping files from the filesystem, use the absolute path, e.g.
+wireMock.loadMappingsFrom("/opt/springboot-wiremock/wiremock-client/wiremock-root");
+```
+
 ## Start Wiremock
 ```
 Start Wiremock in the standalone-wiremock project.

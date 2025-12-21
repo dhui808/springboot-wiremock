@@ -1,3 +1,10 @@
+## The location of the mapping files
+```
+To load the mapping files from the classpath, use commandline option, e.g.
+--load-resources-from-classpath wiremock-root
+where  "wiremock-root" is located under src/main/resources/
+```
+
 ## Create custom WireMock server
 * Use Maven Shade plugin to create custom WireMock wrapping the real WireMock
 * Create a folder under src/main/resources/, e.g. wiremock-root, which inludes  
